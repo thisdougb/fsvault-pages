@@ -1,0 +1,5 @@
+---
+baseURL: 'https://fsvault.dev/'
+languageCode: 'en-gb'
+title: 'fsvault'
+theme: basic
