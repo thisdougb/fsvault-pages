@@ -6,19 +6,15 @@ theme: basic
 
 menu:
   main:
-    - name: Home
+    - name: fsvault
       pageRef: /
       weight: 10
     - name: Why fsvault
       pageRef: /why
       weight: 20
-    - name: Community
-      pageRef: /community
-      weight: 30
     - name: Blog
       pageRef: /posts
-      parent: Community
-      weight: 1
+      weight: 30
     - name: "Documentation"
       params:
         rel: external
