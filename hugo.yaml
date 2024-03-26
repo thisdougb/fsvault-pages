@@ -15,8 +15,8 @@ menu:
     - name: Blog
       pageRef: /posts
       weight: 30
-    - name: "Documentation"
+    - name: Documentation
       params:
         rel: external
-      url: "https://github.com/thisdougb/go-fsvault"
+      url: https://github.com/thisdougb/go-fsvault
       weight: 40
