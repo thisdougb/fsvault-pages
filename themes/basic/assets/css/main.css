@@ -17,6 +17,7 @@
     /* --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
     --font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     --hover-brightness: 1.2;
+    --menu-bg: rgba(200, 200, 200);
     --justify-important: center;
     --justify-normal: left;
     --line-height: 1.5;
@@ -80,15 +81,19 @@ footer {
 }
 
 header {
+    background-color: var(--menu-bg);
     margin: 0 auto;
-    max-width: var(--width-content);
-    justify-items: right;
+    /* max-width: var(--width-content); */
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    z-index: 50;
 }
 
 main {
     margin: 0 auto;
     max-width: var(--width-content);
-    padding: 1rem 1rem;
+    padding-top: 3rem;
 }
 
 hr {
@@ -138,10 +143,6 @@ main header {
     padding-top: 0;
 }
 
-header {
-    text-align: var(--justify-important);
-}
-
 header a b,
 header a em,
 header a i,
@@ -169,6 +170,7 @@ nav {
 }
 
 nav ul {
+    margin-left: 10rem;
     list-style: none;
     padding: 0;
 }
@@ -549,4 +551,26 @@ blockquote footer {
 *::-webkit-scrollbar-thumb {
     background-color: rgb(202, 202, 232);
     border-radius: 10px;
+}
+
+/* Classes */
+.intro {
+  border-color: transparent;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  margin: 1rem 0.5rem 3rem;
+  /* max-width: 50%; */
+  padding: 0.75rem;
+}
+
+.intro a,
+.intro a:visited {
+  color: var(--accent-bg);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.intro img {
+  /* max-width: 50%; */
+  position: relative;
 }
