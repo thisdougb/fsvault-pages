@@ -574,3 +574,30 @@ blockquote footer {
   /* max-width: 50%; */
   position: relative;
 }
+
+.cookie-consent-accept {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.cookie-consent-banner {
+  background-color: #333;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
+
+.cookie-consent-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
