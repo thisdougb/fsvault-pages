@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/opengraph.html" . }}
+{{- partial "opengraph" . }}
 {{ template "_internal/google_analytics.html" . }}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
