@@ -43,6 +43,39 @@
     }
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (max-width: 720px) {
+  /* Nav */
+  nav {
+      align-items: left;
+      display: flex;
+      font-weight: bold;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  }
+  nav ul {
+      margin-left: 1rem;
+      list-style: none;
+      padding: 0;
+  }
+  nav ul li {
+      display: inline-block;
+      margin: 0 0.5rem;
+      position: relative;
+      text-align: left;
+  }
+  article {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 95%;tr
+  }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -571,7 +604,7 @@ blockquote footer {
 }
 
 .intro img {
-  /* max-width: 50%; */
+  max-width: 100%;
   position: relative;
 }
 
