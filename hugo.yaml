@@ -4,6 +4,10 @@ languageCode: 'en-gb'
 title: 'fsvault'
 theme: basic
 
+services:
+  googleAnalytics:
+    ID: 'G-9L6J5QJC0V'
+
 menu:
   main:
     - name: fsvault
