@@ -10,7 +10,7 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 
 Introduction text.
 
-Everything here before more will appear in an RSS reader.
+Everything here before `--more--` will appear in an RSS reader.
 
 <!--more-->
 
